@@ -7,8 +7,8 @@ alert(admin);
 
 // 2 exercise 
 
-let user = "ivan";
-let first = user.slice(0,1);
+let user2 = "ivan";
+let first = user2.slice(0,1);
 let newUser = user.replace(first, first.toUpperCase());
 console.log(newUser);
 
@@ -17,25 +17,25 @@ console.log(newUser);
 let test = 'I' ;
 test += 'love' ;
 test += 'Ukraine' ;
-//console.log(test) ;
+console.log(test) ;
 alert(test.toUpperCase() );
 
-// let str = 'love is in the air'
-// let target = 'is'; 
 
-let pos = 0;
-while (true) {
-  let foundPos = str.indexOf(target, pos);
-  if (foundPos == -1) break;
-  alert( `Found at ${foundPos}` );
-  pos = foundPos + 1;
+const praise = "Ukraine is the best";
+console.log(praise.length);
 
-  // exercise 4 
+console.log(praise.toLowerCase());
+console.log(praise.toUpperCase()); 
+console.log(praise.indexOf("Best")); 
+console.log(praise.includes("best"))
+
+//4th exercise
 
 let a = '';
 let b = 'bbb';
 let c = false;
 let test1 = !b.length === c; // true 
-let test2 = a.length > b.length; // false
-let test3 = !a.length && !b.length; // false 
-let test4 = a === c; // false 
+console.log(test1);
+//  let test2 = a.length > b.length; // false
+// let test3 = !a.length && !b.length;  //false 
+// let test4 = a === c; //false
